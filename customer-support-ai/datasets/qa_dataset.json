@@ -1,0 +1,206 @@
+{
+  "version": "TechMart-QA-v1.0",
+  "description": "Question-Answer pairs for evaluating RAG retrieval quality. Based on TechMart knowledge base.",
+  "data": [
+    {
+      "id": "qa_001",
+      "question": "What is the return window for hardware products?",
+      "answer": "30 days from the delivery date",
+      "context_source": "RefundPolicy.txt",
+      "agent": "billing",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_002",
+      "question": "How long does a refund take to appear on a credit card?",
+      "answer": "5 to 10 business days after the item is received",
+      "context_source": "RefundPolicy.txt",
+      "agent": "billing",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_003",
+      "question": "Can I get a refund on activated software?",
+      "answer": "No, digital downloads and activated software are non-refundable",
+      "context_source": "RefundPolicy.txt",
+      "agent": "billing",
+      "difficulty": "medium"
+    },
+    {
+      "id": "qa_004",
+      "question": "How do I initiate a return for a product?",
+      "answer": "Log into your account, go to Orders, select the order, click Return Item, choose a reason, and print the prepaid return shipping label",
+      "context_source": "RefundPolicy.txt",
+      "agent": "billing",
+      "difficulty": "medium"
+    },
+    {
+      "id": "qa_005",
+      "question": "What is the price of TechMart Pro X1 laptop?",
+      "answer": "$1,299",
+      "context_source": "Pricing.txt",
+      "agent": "product",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_006",
+      "question": "How much RAM does the Creator C5 have?",
+      "answer": "32 GB",
+      "context_source": "Pricing.txt",
+      "agent": "product",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_007",
+      "question": "Is the TechMart SmartWatch S3 currently in stock?",
+      "answer": "No, it is currently out of stock with expected restock in Q3 2024",
+      "context_source": "Pricing.txt",
+      "agent": "product",
+      "difficulty": "medium"
+    },
+    {
+      "id": "qa_008",
+      "question": "What GPU does the TechMart Creator C5 have?",
+      "answer": "NVIDIA RTX 4070",
+      "context_source": "Pricing.txt",
+      "agent": "product",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_009",
+      "question": "What is the monthly price of TechMart Premium subscription?",
+      "answer": "$19.99 per month",
+      "context_source": "Pricing.txt",
+      "agent": "billing",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_010",
+      "question": "How do I reset my password?",
+      "answer": "Go to techmart.com/login, click Forgot Password, enter your email address, and follow the link sent to your inbox",
+      "context_source": "UserManual.txt",
+      "agent": "technical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_011",
+      "question": "How long is an account locked after failed login attempts?",
+      "answer": "30 minutes after 5 failed login attempts",
+      "context_source": "UserManual.txt",
+      "agent": "technical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "qa_012",
+      "question": "What should I do if the software crashes on launch?",
+      "answer": "Update to the latest version, restart the computer, run in compatibility mode, or reinstall with a fresh copy",
+      "context_source": "UserManual.txt",
+      "agent": "technical",
+      "difficulty": "medium"
+    },
+    {
+      "id": "qa_013",
+      "question": "What operating systems are supported?",
+      "answer": "Windows 10 or later, macOS 12 or later, and Ubuntu 20.04 or later",
+      "context_source": "UserManual.txt",
+      "agent": "technical",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_014",
+      "question": "How do I do a factory reset on my laptop?",
+      "answer": "On Windows: Settings > System > Recovery > Reset this PC. On macOS: Restart, hold Cmd+R, use Disk Utility to erase, then reinstall macOS. Warning: backs up data first.",
+      "context_source": "UserManual.txt",
+      "agent": "technical",
+      "difficulty": "hard"
+    },
+    {
+      "id": "qa_015",
+      "question": "What is covered under the standard TechMart warranty?",
+      "answer": "Manufacturing defects and hardware failures under normal use for 1 year from purchase, including screen, battery degradation over 20%, and ports",
+      "context_source": "Warranty.txt",
+      "agent": "faq",
+      "difficulty": "medium"
+    },
+    {
+      "id": "qa_016",
+      "question": "Does the warranty cover physical damage from drops?",
+      "answer": "No, physical damage from drops, spills, and cracks is not covered under the standard warranty",
+      "context_source": "Warranty.txt",
+      "agent": "faq",
+      "difficulty": "medium"
+    },
+    {
+      "id": "qa_017",
+      "question": "How much does TechMart Care Pro cost?",
+      "answer": "$129 and includes 3 years of total coverage plus one accidental damage claim",
+      "context_source": "Warranty.txt",
+      "agent": "faq",
+      "difficulty": "medium"
+    },
+    {
+      "id": "qa_018",
+      "question": "What is the battery warranty policy?",
+      "answer": "The battery is warranted to retain more than 80% capacity at 500 charge cycles or within 1 year. A free replacement is provided if it drops below 80%.",
+      "context_source": "Warranty.txt",
+      "agent": "faq",
+      "difficulty": "hard"
+    },
+    {
+      "id": "qa_019",
+      "question": "How much does express 2-day shipping cost?",
+      "answer": "$9.99",
+      "context_source": "Warranty.txt",
+      "agent": "faq",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_020",
+      "question": "At what order value does shipping become free?",
+      "answer": "Orders over $50 qualify for free standard shipping",
+      "context_source": "Warranty.txt",
+      "agent": "faq",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_021",
+      "question": "What is the TechMart support phone number?",
+      "answer": "1-800-TECHMART",
+      "context_source": "FAQ.txt",
+      "agent": "faq",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_022",
+      "question": "What are TechMart support hours?",
+      "answer": "Monday to Friday 9am to 6pm EST, and Saturday 10am to 4pm EST",
+      "context_source": "FAQ.txt",
+      "agent": "faq",
+      "difficulty": "easy"
+    },
+    {
+      "id": "qa_023",
+      "question": "How long does international shipping take to the UK?",
+      "answer": "10 to 14 days for standard shipping at $19.99, or 5 to 7 days for express at $39.99",
+      "context_source": "Warranty.txt",
+      "agent": "faq",
+      "difficulty": "hard"
+    },
+    {
+      "id": "qa_024",
+      "question": "What discount is available for students?",
+      "answer": "15% discount with a valid .edu email address",
+      "context_source": "FAQ.txt",
+      "agent": "product",
+      "difficulty": "medium"
+    },
+    {
+      "id": "qa_025",
+      "question": "How do I claim a warranty on a defective product?",
+      "answer": "Email warranty@techmart.com with your order number and photos or video of the defect. The team responds within 24 business hours.",
+      "context_source": "Warranty.txt",
+      "agent": "faq",
+      "difficulty": "medium"
+    }
+  ]
+}

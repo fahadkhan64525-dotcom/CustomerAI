@@ -1,0 +1,57 @@
+TechMart Electronics — Product Catalog & Pricing
+================================================
+
+LAPTOPS
+-------
+TechMart Pro X1 — $1,299
+  CPU: Intel Core i7-13th Gen | RAM: 16 GB | Storage: 512 GB NVMe SSD
+  Display: 15.6" 4K OLED | Battery: 12 hours | Weight: 1.8 kg
+  OS: Windows 11 Pro | Ports: 2x USB-C Thunderbolt, 2x USB-A, HDMI 2.1
+
+TechMart Lite L3 — $699
+  CPU: Intel Core i5-12th Gen | RAM: 8 GB | Storage: 256 GB SSD
+  Display: 14" FHD IPS | Battery: 9 hours | Weight: 1.4 kg
+  OS: Windows 11 Home
+
+TechMart Creator C5 — $1,899
+  CPU: AMD Ryzen 9 7900X | RAM: 32 GB | Storage: 1 TB NVMe SSD
+  Display: 16" QHD 165Hz | GPU: NVIDIA RTX 4070 | Weight: 2.1 kg
+
+NETWORKING
+----------
+TechMart Wireless Hub Pro — $149
+  Wi-Fi 6E | 4x Gigabit Ethernet | 2x USB-A | Coverage: 3,000 sq ft
+  Max speed: 5.4 Gbps | Mesh-ready
+
+TechMart Mesh Node (3-pack) — $299
+  Whole-home Wi-Fi 6 | Coverage: 6,000 sq ft | Easy app setup
+
+WEARABLES
+---------
+TechMart SmartWatch S3 — $299 (Currently out of stock, expected restock Q3 2024)
+  AMOLED display 1.4" | Battery: 7 days | GPS | IP68 water-resistant
+  Health: Heart rate, SpO2, sleep, ECG
+
+TechMart Earbuds Pro — $129
+  Active Noise Cancellation | Transparency mode | 30-hour total battery
+  IPX5 | Bluetooth 5.3 | Wireless charging case
+
+SOFTWARE SUBSCRIPTIONS
+-----------------------
+TechMart Basic — $9.99/month or $99/year
+  1 device | Basic cloud storage (5 GB) | Email support | Software updates
+
+TechMart Premium — $19.99/month or $199/year
+  3 devices | 50 GB cloud | Priority support | VPN included | Advanced security
+
+TechMart Business — $49.99/month or $499/year
+  Unlimited devices | 500 GB cloud | 24/7 phone support | Admin dashboard
+  SSO integration | Compliance tools
+
+ACCESSORIES
+-----------
+TechMart USB-C Hub 7-in-1 — $49
+TechMart Laptop Stand — $39
+TechMart Wireless Charger (15W) — $29
+TechMart Mechanical Keyboard TKL — $89
+TechMart Ergonomic Mouse — $59

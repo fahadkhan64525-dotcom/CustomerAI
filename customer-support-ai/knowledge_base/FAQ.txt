@@ -1,0 +1,46 @@
+TechMart Electronics — Frequently Asked Questions
+==================================================
+
+COMPANY INFORMATION
+-------------------
+Q: What is TechMart Electronics?
+A: TechMart Electronics is a leading consumer electronics company founded in 2010, headquartered in San Francisco, CA. We offer laptops, smart devices, networking equipment, wearables, and software subscriptions.
+
+Q: How do I contact TechMart support?
+A: Email: support@techmart.com | Phone: 1-800-TECHMART (Mon–Fri 9am–6pm, Sat 10am–4pm EST) | Live chat: techmart.com/support
+
+Q: Where are TechMart stores located?
+A: We operate 45 retail stores across the US and Canada, plus our full catalog at techmart.com. Use the store locator at techmart.com/stores.
+
+ORDERS & SHIPPING
+-----------------
+Q: How long does shipping take?
+A: Standard shipping: 5–7 business days (free over $50). Express 2-day: $9.99. Overnight: $24.99. International shipping available to 30+ countries.
+
+Q: Can I track my order?
+A: Yes. Once shipped, you'll receive a tracking email. You can also track at techmart.com/orders with your order number.
+
+Q: Can I change or cancel my order?
+A: Orders can be modified or cancelled within 2 hours of placement. After that, wait for delivery and use our return process.
+
+ACCOUNT & SECURITY
+------------------
+Q: How do I reset my password?
+A: Go to techmart.com/login → click "Forgot Password" → enter your email → follow the link sent to your inbox.
+
+Q: Is my payment information secure?
+A: Yes. We use 256-bit SSL encryption and are PCI-DSS compliant. We never store full card numbers.
+
+Q: How do I update my account information?
+A: Log in → Account Settings → Personal Information → Edit and Save.
+
+PRODUCTS
+--------
+Q: Do TechMart products come with a warranty?
+A: All products include a 1-year limited warranty. Extended warranties (2–3 years) are available for purchase.
+
+Q: Are your products compatible with Mac and Windows?
+A: Most TechMart software supports Windows 10+, macOS 12+, and Ubuntu 20.04+. Check individual product pages for specifics.
+
+Q: Do you offer educational or business discounts?
+A: Yes. Education: 15% off with valid .edu email. Business accounts: volume pricing starting at 5 units. Contact sales@techmart.com.

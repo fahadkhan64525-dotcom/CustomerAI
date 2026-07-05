@@ -1,0 +1,28 @@
+# render.yaml — Deploy to Render (alternative to Railway)
+# Docs: https://render.com/docs/yaml-spec
+
+services:
+  - type: web
+    name: techmart-ai-backend
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn backend.main:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: ANTHROPIC_API_KEY
+        sync: false             # Set manually in Render dashboard
+      - key: SECRET_KEY
+        generateValue: true     # Auto-generated secure key
+      - key: KNOWLEDGE_BASE_DIR
+        value: knowledge_base
+      - key: VECTORSTORE_PATH
+        value: backend/vectorstore
+      - key: EMBEDDING_MODEL
+        value: all-MiniLM-L6-v2
+      - key: DB_PATH
+        value: /var/data/support_ai.db
+    disk:
+      name: techmart-data
+      mountPath: /var/data
+      sizeGB: 1
+    plan: starter

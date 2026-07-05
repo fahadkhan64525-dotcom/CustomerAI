@@ -1,0 +1,112 @@
+{
+  "intent_classification": {
+    "file": "intent_classification.csv",
+    "total_samples": 109,
+    "unique_intents": 47,
+    "agent_distribution": {
+      "billing": 33,
+      "technical": 28,
+      "product": 18,
+      "complaint": 12,
+      "faq": 18
+    },
+    "top_intents": {
+      "product_features": 5,
+      "account_security": 4,
+      "check_balance": 3,
+      "double_charge": 3,
+      "cancel_subscription": 3,
+      "refund_request": 3,
+      "refund_not_received": 3,
+      "upgrade_plan": 3,
+      "downgrade_plan": 3,
+      "update_payment": 3
+    },
+    "avg_text_length_chars": 31.2,
+    "classes": [
+      "billing",
+      "complaint",
+      "faq",
+      "product",
+      "technical"
+    ]
+  },
+  "customer_complaints": {
+    "file": "customer_complaints.csv",
+    "total_samples": 25,
+    "resolved": 25,
+    "escalated": 10,
+    "escalation_rate_pct": 40.0,
+    "category_distribution": {
+      "billing": 8,
+      "technical": 7,
+      "product": 4,
+      "complaint": 6
+    },
+    "agent_distribution": {
+      "billing": 8,
+      "technical": 7,
+      "product": 4,
+      "complaint": 6
+    },
+    "avg_satisfaction_score": 4.16,
+    "avg_resolution_time_hours": 8.4
+  },
+  "conversations": {
+    "file": "conversations.json",
+    "total_conversations": 6,
+    "resolved": 6,
+    "escalated": 1,
+    "category_distribution": {
+      "billing": 1,
+      "technical": 1,
+      "complaint": 1,
+      "product": 1,
+      "technical_billing": 1,
+      "faq": 1
+    },
+    "agents_used": {
+      "billing": 6,
+      "technical": 7,
+      "complaint": 4,
+      "product": 4,
+      "faq": 3
+    },
+    "avg_turns_per_conversation": 8.0,
+    "avg_satisfaction": 4.33,
+    "total_turns": 48
+  },
+  "qa_dataset": {
+    "file": "qa_dataset.json",
+    "version": "TechMart-QA-v1.0",
+    "total_qa_pairs": 25,
+    "agent_distribution": {
+      "billing": 5,
+      "product": 5,
+      "technical": 5,
+      "faq": 10
+    },
+    "difficulty_distribution": {
+      "easy": 12,
+      "medium": 10,
+      "hard": 3
+    },
+    "source_distribution": {
+      "RefundPolicy.txt": 4,
+      "Pricing.txt": 5,
+      "UserManual.txt": 5,
+      "Warranty.txt": 8,
+      "FAQ.txt": 3
+    },
+    "avg_question_length": 44.5,
+    "avg_answer_length": 69.0
+  },
+  "banking77_train": {
+    "file": "banking77_train.csv",
+    "status": "not downloaded"
+  },
+  "banking77_test": {
+    "file": "banking77_test.csv",
+    "status": "not downloaded"
+  }
+}

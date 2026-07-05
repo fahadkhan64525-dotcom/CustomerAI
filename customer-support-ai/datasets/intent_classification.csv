@@ -1,0 +1,110 @@
+text,label,agent
+"What is my current balance?",check_balance,billing
+"Show me my account balance",check_balance,billing
+"How much money do I have left?",check_balance,billing
+"I was charged twice for the same item",double_charge,billing
+"There's a duplicate transaction on my account",double_charge,billing
+"I see two charges for one order",double_charge,billing
+"How do I cancel my subscription?",cancel_subscription,billing
+"I want to stop my monthly plan",cancel_subscription,billing
+"Please cancel my premium membership",cancel_subscription,billing
+"I need a refund for my purchase",refund_request,billing
+"Can I get my money back?",refund_request,billing
+"I want to return this and get refunded",refund_request,billing
+"My refund hasn't arrived yet",refund_not_received,billing
+"Where is my refund? It's been 10 days",refund_not_received,billing
+"I requested a refund last week and still nothing",refund_not_received,billing
+"How do I upgrade my plan?",upgrade_plan,billing
+"I want to switch to premium",upgrade_plan,billing
+"What's included in the business tier?",upgrade_plan,billing
+"Can I downgrade to the basic plan?",downgrade_plan,billing
+"I want a cheaper subscription option",downgrade_plan,billing
+"Switch me to the free tier please",downgrade_plan,billing
+"Update my credit card details",update_payment,billing
+"My card expired, how do I change it?",update_payment,billing
+"Add a new payment method",update_payment,billing
+"Send me my invoice for last month",get_invoice,billing
+"I need a receipt for my purchase",get_invoice,billing
+"Where can I download my billing statement?",get_invoice,billing
+"Why was I charged this amount?",charge_dispute,billing
+"I don't recognize this charge",charge_dispute,billing
+"This fee is incorrect, please explain",charge_dispute,billing
+"When is my next billing date?",billing_date,billing
+"My payment failed, what should I do?",payment_failed,billing
+"The transaction was declined",payment_failed,billing
+"I can't log into my account",login_issue,technical
+"My password isn't working",login_issue,technical
+"I forgot my login credentials",login_issue,technical
+"How do I reset my password?",password_reset,technical
+"Send me a password reset link",password_reset,technical
+"I'm locked out of my account",account_locked,technical
+"My account has been disabled",account_locked,technical
+"Too many failed login attempts",account_locked,technical
+"The app keeps crashing",app_crash,technical
+"Software closes unexpectedly",app_crash,technical
+"I'm getting an error message",error_message,technical
+"There's a bug in the application",error_message,technical
+"How do I install the software?",installation,technical
+"Installation failed with an error",installation,technical
+"The program won't install on my computer",installation,technical
+"My device isn't connecting to Wi-Fi",connectivity,technical
+"Internet connection drops frequently",connectivity,technical
+"Can't connect to the server",connectivity,technical
+"The app is running very slowly",performance,technical
+"Software lag is unbearable",performance,technical
+"How do I update to the latest version?",software_update,technical
+"There's an update available, how do I install it?",software_update,technical
+"I need to set up two-factor authentication",account_security,technical
+"How do I enable 2FA?",account_security,technical
+"My 2FA code isn't working",account_security,technical
+"I think my account was hacked",account_security,technical
+"How do I transfer my data to a new device?",data_transfer,technical
+"I lost my data after reinstalling",data_recovery,technical
+"What features does the premium plan include?",product_features,product
+"What can your software do?",product_features,product
+"Tell me about your product",product_features,product
+"How much does the basic plan cost?",pricing_query,product
+"What is your pricing structure?",pricing_query,product
+"Are there any discounts available?",pricing_query,product
+"Do you offer a student discount?",discount_inquiry,product
+"Is there a free trial available?",free_trial,product
+"Can I try before I buy?",free_trial,product
+"Is the TechMart Pro X1 laptop available?",product_availability,product
+"When will the smartwatch be back in stock?",product_availability,product
+"Do you have this item in stock?",product_availability,product
+"How does your product compare to competitors?",product_comparison,product
+"What makes you better than other companies?",product_comparison,product
+"What are the laptop specifications?",product_specs,product
+"What processor does the Pro X1 use?",product_specs,product
+"Is this product compatible with Mac?",compatibility,product
+"Does the software work on Windows 11?",compatibility,product
+"This product is defective",defective_product,complaint
+"The item I received is broken",defective_product,complaint
+"I received the wrong item",wrong_item,complaint
+"This is not what I ordered",wrong_item,complaint
+"The delivery took too long",delivery_complaint,complaint
+"My order is late",delivery_complaint,complaint
+"I'm very unhappy with the service",service_complaint,complaint
+"Your customer support is terrible",service_complaint,complaint
+"I want to speak to a manager",escalation_request,complaint
+"I need to escalate this issue",escalation_request,complaint
+"I want to make a formal complaint",formal_complaint,complaint
+"This is unacceptable",formal_complaint,complaint
+"What are your store hours?",store_hours,faq
+"Where are your offices located?",company_info,faq
+"How do I contact support?",contact_info,faq
+"What is your phone number?",contact_info,faq
+"What is your return policy?",return_policy,faq
+"How long do I have to return an item?",return_policy,faq
+"What does the warranty cover?",warranty_info,faq
+"How long is the warranty?",warranty_info,faq
+"How long does shipping take?",shipping_info,faq
+"Do you ship internationally?",shipping_info,faq
+"What payment methods do you accept?",payment_methods,faq
+"Can I pay with PayPal?",payment_methods,faq
+"Is my data safe with you?",privacy_policy,faq
+"What is your privacy policy?",privacy_policy,faq
+"How do I delete my account?",account_deletion,faq
+"I want to close my account permanently",account_deletion,faq
+"Do you have a mobile app?",product_features,faq
+"Where can I download your app?",product_features,faq

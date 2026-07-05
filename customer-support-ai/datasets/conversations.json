@@ -1,0 +1,104 @@
+[
+  {
+    "conversation_id": "conv_001",
+    "category": "billing",
+    "turns": [
+      {"role": "user", "content": "Hi, I think I was overcharged on my last bill."},
+      {"role": "assistant", "content": "I'm sorry to hear that! I'd be happy to help you look into this. Could you please provide your order number or the email address on your account?", "agent": "billing"},
+      {"role": "user", "content": "My email is john.doe@example.com and the order was #TM-2024-8821"},
+      {"role": "assistant", "content": "Thank you, John. I can see your account. I'm looking at order #TM-2024-8821 now. I can see a charge of $19.99 on March 15th. Can you tell me what you believe the correct charge should have been?", "agent": "billing"},
+      {"role": "user", "content": "I was charged twice! There are two $19.99 charges on the same day."},
+      {"role": "assistant", "content": "You're absolutely right — I can see the duplicate charge on your account. This was a processing error on our end. I sincerely apologize for the inconvenience. I'll process a refund of $19.99 right now. You should see it back on your card within 5–7 business days. Is there anything else I can help you with?", "agent": "billing"},
+      {"role": "user", "content": "That's great, thank you! Will I get a confirmation email?"},
+      {"role": "assistant", "content": "Yes, absolutely! A refund confirmation email will be sent to john.doe@example.com within the next 15 minutes. The reference number for this refund is REF-20240315-991. Please keep that for your records.", "agent": "billing"}
+    ],
+    "resolved": true,
+    "escalated": false,
+    "satisfaction": 5
+  },
+  {
+    "conversation_id": "conv_002",
+    "category": "technical",
+    "turns": [
+      {"role": "user", "content": "I can't log into my account. I've tried 5 times already."},
+      {"role": "assistant", "content": "I'm sorry you're having trouble logging in! Let's get this sorted quickly. Are you getting a specific error message, or is it just not accepting your password?", "agent": "technical"},
+      {"role": "user", "content": "It says 'Invalid email or password' but I know my password is correct."},
+      {"role": "assistant", "content": "That's frustrating. A few things to try: First, make sure Caps Lock is off. Second, try clearing your browser cache. Third, try opening an incognito/private window. Have you tried any of these already?", "agent": "technical"},
+      {"role": "user", "content": "Yes I tried all of those. Still doesn't work."},
+      {"role": "assistant", "content": "Got it. Let's reset your password to be sure. I'll send a password reset link to the email address on your account. What email did you register with?", "agent": "technical"},
+      {"role": "user", "content": "sarah.smith@gmail.com"},
+      {"role": "assistant", "content": "I've sent a password reset link to sarah.smith@gmail.com. Please check your inbox — and also your spam folder just in case. The link expires in 24 hours. Once you reset it, you should be able to log in without any issues. Let me know if you don't receive the email within 5 minutes.", "agent": "technical"},
+      {"role": "user", "content": "Got it, reset my password and I'm in now. Thanks!"},
+      {"role": "assistant", "content": "Excellent! Glad we got that sorted out. To prevent this in future, I'd recommend enabling Two-Factor Authentication in your account security settings — it adds an extra layer of protection. Is there anything else I can help you with today?", "agent": "technical"}
+    ],
+    "resolved": true,
+    "escalated": false,
+    "satisfaction": 4
+  },
+  {
+    "conversation_id": "conv_003",
+    "category": "complaint",
+    "turns": [
+      {"role": "user", "content": "I am absolutely furious. I've been waiting 3 weeks for my laptop and it still hasn't arrived!"},
+      {"role": "assistant", "content": "I completely understand your frustration, and I sincerely apologize for this delay — 3 weeks is absolutely unacceptable. I want to fix this for you right away. Could you share your order number so I can look into exactly what happened?", "agent": "complaint"},
+      {"role": "user", "content": "Order #TM-2024-7755. This is ridiculous. I needed this laptop for work."},
+      {"role": "assistant", "content": "I've pulled up order #TM-2024-7755. I can see the shipment has been stuck at a carrier facility since last week — this is a carrier issue on our end and completely our responsibility. Here's what I'm going to do: I'm immediately shipping a replacement laptop with overnight delivery at absolutely no charge. You'll receive it tomorrow by 5 PM. I'm also going to apply a $50 credit to your account for the inconvenience this has caused.", "agent": "complaint"},
+      {"role": "user", "content": "I want to speak to a manager. This isn't good enough."},
+      {"role": "assistant", "content": "I completely understand, and I'll escalate this to our Customer Experience Manager right now. You'll receive a personal call from them within 2 hours. I'm also noting in your account that this requires immediate priority attention. The tracking number for your overnight replacement is TRK-99281-XP. Is there a best number to reach you for the manager callback?", "agent": "complaint"},
+      {"role": "user", "content": "555-0147. Fine, I'll wait for the call."},
+      {"role": "assistant", "content": "Perfect. I've logged 555-0147 and flagged your case as urgent. Our manager will call you within 2 hours. You'll also receive an email confirmation of the replacement shipment within the next 20 minutes. Again, I'm truly sorry for this experience — it's not the standard we hold ourselves to.", "agent": "complaint"}
+    ],
+    "resolved": true,
+    "escalated": true,
+    "satisfaction": 3
+  },
+  {
+    "conversation_id": "conv_004",
+    "category": "product",
+    "turns": [
+      {"role": "user", "content": "I'm trying to decide between the Pro X1 and Creator C5 laptops. Which one should I get?"},
+      {"role": "assistant", "content": "Great question! These are two of our best laptops but they're designed for different needs. To give you the best recommendation, what will you primarily use the laptop for?", "agent": "product"},
+      {"role": "user", "content": "I do video editing and 3D rendering professionally."},
+      {"role": "assistant", "content": "For professional video editing and 3D rendering, the Creator C5 is the clear choice. Here's why: it has an AMD Ryzen 9 7900X processor (vs the i7 in the Pro X1), 32GB RAM (vs 16GB), a 1TB SSD (vs 512GB), and most importantly — an NVIDIA RTX 4070 dedicated GPU which is essential for GPU-accelerated rendering in software like DaVinci Resolve, Blender, and Adobe Premiere. The Pro X1 doesn't have a dedicated GPU, so render times would be significantly longer.", "agent": "product"},
+      {"role": "user", "content": "What's the price difference?"},
+      {"role": "assistant", "content": "The Creator C5 is $1,899 and the Pro X1 is $1,299 — a $600 difference. For professional video editing and 3D rendering, the Creator C5 is absolutely worth the investment. The RTX 4070 GPU alone will save you hours of render time per day. We also offer a 12-month installment plan if that helps with the upfront cost.", "agent": "product"},
+      {"role": "user", "content": "Is the Creator C5 in stock right now?"},
+      {"role": "assistant", "content": "Yes! The Creator C5 is currently in stock and ready to ship. If you order today before 2 PM EST, it will ship same day and arrive in 5–7 business days with free standard shipping, or 2 days for $9.99 express. Would you like me to help you place the order or do you have any other questions?", "agent": "product"}
+    ],
+    "resolved": true,
+    "escalated": false,
+    "satisfaction": 5
+  },
+  {
+    "conversation_id": "conv_005",
+    "category": "technical_billing",
+    "turns": [
+      {"role": "user", "content": "I paid for the Premium plan yesterday but my account still shows Basic features."},
+      {"role": "assistant", "content": "I can help with that — this sounds like it could be either a payment processing delay or an account sync issue. Let me check both. Can you share the email on your account?", "agent": "billing"},
+      {"role": "user", "content": "mike.jones@company.com"},
+      {"role": "assistant", "content": "I can see your account, Mike. Good news — your payment of $19.99 was successfully processed yesterday at 3:47 PM. However, I can see your account tier hasn't updated yet. This is a sync issue on our end. I'm manually updating your account to Premium right now.", "agent": "billing"},
+      {"role": "user", "content": "Okay, I refreshed but it still shows Basic in the app."},
+      {"role": "assistant", "content": "The account is updated on our server side. This is now a technical sync issue with the app. Please try: 1) Sign out of the app completely, 2) Clear the app cache (Settings → Advanced → Clear Cache), 3) Sign back in. This should force the app to pull your updated subscription status.", "agent": "technical"},
+      {"role": "user", "content": "That worked! I can see Premium features now. Thanks!"},
+      {"role": "assistant", "content": "Perfect! Glad we got that sorted. Your Premium plan includes 3 devices, 50GB cloud storage, priority support, and VPN access. Everything is now active on your account. If you run into any other issues, don't hesitate to reach out!", "agent": "technical"}
+    ],
+    "resolved": true,
+    "escalated": false,
+    "satisfaction": 4
+  },
+  {
+    "conversation_id": "conv_006",
+    "category": "faq",
+    "turns": [
+      {"role": "user", "content": "What is your return policy?"},
+      {"role": "assistant", "content": "Our return policy is: Hardware and electronics have a 30-day return window from your delivery date. Items must be in original packaging with all accessories. Digital downloads and activated software are non-refundable. Defective items are covered for 90 days. Would you like to know how to start a return?", "agent": "faq"},
+      {"role": "user", "content": "Yes please, I want to return my earbuds"},
+      {"role": "assistant", "content": "Sure! Here's how to return your earbuds: 1) Log into your TechMart account, 2) Go to Orders → select your earbud order, 3) Click 'Return Item' and select your reason, 4) Print the prepaid return shipping label, 5) Drop it off at any UPS or FedEx location. Once we receive the item, your refund will be processed within 5–10 business days to your original payment method.", "agent": "faq"},
+      {"role": "user", "content": "Do I have to pay for return shipping?"},
+      {"role": "assistant", "content": "No! Return shipping is completely free for all TechMart products. The return label we provide is prepaid — you won't be charged anything. Just print it, attach it to the box, and drop it off. Is there anything else you'd like to know?", "agent": "faq"}
+    ],
+    "resolved": true,
+    "escalated": false,
+    "satisfaction": 5
+  }
+]
