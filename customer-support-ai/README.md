@@ -5,7 +5,8 @@ A production-grade capstone project implementing a Multi-Agent AI Customer Suppo
 
 ---
 
-## Architecture Overview
+## Architecture Overview of entire project
+
 
 ```
 Customer (Web Chat UI)
